@@ -19,7 +19,7 @@ const About = () => (
       <TypingText title="| About Metaversus" textStyles="text-center" />
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="mt-[18px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className=" mt-[18px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
         <span className="font-extrabold text-white">Metaverse</span> is a new
         thing in the future, where you can enjoy the virtual world by feeling
@@ -40,7 +40,7 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         src="/arrow-down.svg"
         alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
+        className="w-[18px] h-[28px] object-contain mt-[28px] animate-bounce"
       />
     </motion.div>
   </section>
